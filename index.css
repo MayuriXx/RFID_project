@@ -1,0 +1,48 @@
+html{
+
+    font-family: "Helvetica"
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: white;
+    /*padding: 20px 10px;*/
+    display: flex
+  }
+  
+/* Style the header links */
+.header a {
+    color: black;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header p {
+
+    padding: 0 5% 0 5%;
+}
+
+.header p:first-child {
+    padding-left: 0;
+}
+  
+
+.auth{
+    width: 200px;
+    height: 100px;
+    background: #304ffe;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 47%;
+    left: 47%;
+}
+
+.auth p {
+
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
